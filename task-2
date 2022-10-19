@@ -1,4 +1,4 @@
-
+# Сложность программы = O(n)
 def umberOfMatches(num):
     k = 0
     while num > 1:
