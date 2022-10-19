@@ -1,0 +1,14 @@
+
+def umberOfMatches(num):
+    k = 0
+    while num > 1:
+        
+        if num % 2 == 1:
+            k = k + (num - 1) // 2
+            num = 1 + (num - 1) // 2
+        else:
+            k = k + num // 2
+            num = num //2
+    return k
+
+
