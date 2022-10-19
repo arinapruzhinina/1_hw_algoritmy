@@ -1,0 +1,8 @@
+def numJewelsInStones(j:str, s:str):
+    j = set(j)
+    k = 0
+    for i in s:
+        if i in j:
+            k += 1
+    return k 
+print(numJewelsInStones('zz', 'ZZZZ'))
