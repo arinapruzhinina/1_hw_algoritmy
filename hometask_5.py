@@ -1,0 +1,5 @@
+import heapq
+
+def findKthLargest(nums: list, k: int) -> int:
+    res = heapq.nlargest(k, nums)
+    return res[-1]
